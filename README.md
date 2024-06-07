@@ -1,9 +1,9 @@
-# Australian_Car_Price_Prediction
-
+# **`Australian_Car_Price_Prediction`**
 This dataset contains the latest information on car prices in Australia for the year 2023. It covers various brands, models, types, and features of cars sold in the Australian market. It provides useful insights into the trends and factors influencing the car prices in Australia. The dataset includes information such as brand, year, model, car/suv, title, used/new, transmission, engine, drive type, fuel type, fuel consumption, kilometres, colour (exterior/interior), location, cylinders in engine, body type, doors, seats, and price. The dataset has over 16,000 records of car listings from various online platforms in Australia.
-
-# ABOUT THE DATA
-
+Source - https://www.kaggle.com/datasets/nelgiriyewithana/australian-vehicle-prices
+# **`GOAL`** 
+The aim of this project is to use the given dataset to find insights about the data using Exploaratory Data Analysis and create a model to predict prices of the cars. This is a beginners project that i Have done to merely illustrate how the three supervised machine learning models- Linear Regression, Decision Tree Regressor and Random Forest Regressor is implemented in a project. I have used several metrics like R2 Score, root mean squared error, and mean absolute eror to evaluate each model and compare them to each other.
+# **`ABOUT THE DATA`**
 - Brand: Name of the car manufacturer
 - Year: Year of manufacture or release
 - Model: Name or code of the car model
@@ -23,5 +23,21 @@ This dataset contains the latest information on car prices in Australia for the 
 - Doors: Number of doors in the car
 - Seats: Number of seats in the car
 - Price: Price of the car (in Australian dollars)
+## **`Tools Used`**
+1. Numpy
+2. Pandas
+3. Matplotlib
+4. Seaborn
+5. Scikit-learn
+## **`What we will do:`**
+1. Reading the data
+2. Data Cleaning
+   - Dealing with irrelevant columns
+   - Dealing with outliers  
+4. Exploratory Data Analysis
+5. Data Preparation
+   - Splitting the data into train and test data
+   - Rescaling the data
+6. Model building
+7. Model Evaluation and Comparison
 
-Source - https://www.kaggle.com/datasets/nelgiriyewithana/australian-vehicle-prices
